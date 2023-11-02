@@ -1,2 +1,9 @@
-runtime: python38
-entrypoint: gunicorn -b :$PORT main:app
+runtime: python38  # Ganti dengan runtime yang sesuai (lihat catatan di bawah)
+entrypoint: gunicorn -b :$PORT main:app  # Hanya digunakan untuk runtime Python
+
+handlers:
+- url: /static
+  static_dir: static
+- url: /.*
+  script: auto
+
