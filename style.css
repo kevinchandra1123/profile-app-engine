@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-section {
+    background-color: #393E46;
+    color: white;
+    text-align: center;
+    padding: 67px 0;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.right-content {
+    flex: 1;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.right-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-content ul li {
+    margin-bottom: 10px; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #EEEEEE;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 1px 0;
+}
+
+.centered-text {
+    font-weight: bold;
+    color: black;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 30px; 
+    
+}
+.social-icons a img {
+    width: 50px; 
+    height: 50px;
+}
+
+
+/* Add more CSS styles as needed */
+
